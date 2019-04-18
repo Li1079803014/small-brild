@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/小鸟动态.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/listData.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/move.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div class="head">
+				<div class="head-l"></div>
+				<ul class="head-r">
+					<li>首页
+						<div class="dian" style="display: block;"></div>
+					</li>
+					<li id="niao">小鸟掌学
+						<div class="dian"></div>
+						<div class="tubiao"></div>
+						<div id="xiala">
+							<p>
+								<a href="#">小鸟掌学主页</a>
+							</p>
+							<p>
+								<a href="#">小鸟掌学概述</a>
+							</p>
+							<p>
+								<a href="#">对企业的价值</a>
+							</p>
+							<p>
+								<a href="#">小鸟掌云</a>
+							</p>
+							<p>
+								<a href="#">微课联盟</a>
+							</p>
+							<p>
+								<a href="#">APP下载</a>
+							</p>
+						</div>
+					</li>
+					<li>小鸟动态
+						<div class="dian"></div>
+					</li>
+					<li>企业文化
+						<div class="dian"></div>
+						<div class="tubiao"></div>
+						<div id="xiala" class="xiala1">
+							<p>
+								<a href="#">公司理念</a>
+							</p>
+							<p>
+								<a href="#">公司文化</a>
+							</p>
+							<p>
+								<a href="#">公司氛围</a>
+							</p>
+						</div>
+					</li>
+					<li>人力资源
+						<div class="dian"></div>
+						<div class="tubiao"></div>
+						<div id="xiala" class="xiala2">
+							<p>
+								<a href="#">人才理念</a>
+							</p>
+							<p>
+								<a href="#">团队介绍</a>
+							</p>
+							<p>
+								<a href="#">招聘信息</a>
+							</p>
+						</div>
+					</li>
+					<li>联系我们
+						<div class="dian"></div>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<div class="content_wrap">
+			<h1 class="title_big">小鸟动态</h1>
+			<h2>About Company</h2>
+			<img src="img/three_points01.png" >
+			<div class="title_list">
+				列表
+				<span class="pen"></span>
+			</div>
+			<div class="list_content" id="articleList">
+				<!-- <div class="content_one">
+					<div class="img_wrap">
+						<img src="img/list_img01.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">卓新思创重装出发</div>
+						<div class="date">2016-02-03</div>
+						<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div>
+				<div class="content_one">
+					<div class="img_wrap">
+						<img src="img/list_img01.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">小鸟掌学开通国外渠道</div>
+						<div class="date">2016-02-03</div>
+						<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div>
+				<div class="content_one">
+					<div class="img_wrap">
+						<img src="img/list_img01.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">卓新思创天气app上线</div>
+						<div class="date">2016-02-03</div>
+						<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div>
+				<div class="content_one">
+					<div class="img_wrap">
+						<img src="img/list_img02.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">国外报道</div>
+						<div class="date">2016-02-03</div>
+						<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div>
+				<div class="content_one">
+					<div class="img_wrap">
+						<img src="img/list_img03.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">国外报道</div>
+						<div class="date">2016-02-03</div>
+						<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div>
+				<div class="content_one">
+					<div class="img_wrap">
+						<img src="img/list_img04.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">卓新思创天气app上线</div>
+						<div class="date">2016-02-03</div>
+						<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div> -->
+			</div>
+			<!-- 模板 -->
+			<div id="itemHtml" style="display: none;">
+				<div class="content_one" articleId="articleId">
+					<div class="img_wrap">
+						<img src="img/list_img01.jpg" >
+					</div>
+					<div class="content_text">
+						<div class="title_small">$articleTitle$</div>
+						<div class="date">$articleTime$</div>
+						<p>$describe$</p>
+					</div>
+					<img src="img/list_img_over_xiaojiantou.png" class="img">
+				</div>
+			</div>
+			<div class="more">
+				<img src="img/list_gomore_bg.jpg" class="More">
+			</div>
+			<div class="jiantou"></div>
+		</div>
+		<div class="footer-img"></div>
+		<!-- 底部 -->
+		<footer class="foot">
+			<div class="footcon">
+				<div class="footer">
+					<div class="music">
+						<span><audio src="img/sound00.mp3"></audio></span>
+						<span><audio src="img/sound01.mp3"></audio></span>
+						<span><audio src="img/sound02.mp3"></audio></span>
+						<span><audio src="img/sound03.mp3"></audio></span>
+						<span><audio src="img/sound04.mp3"></audio></span>
+						<span><audio src="img/sound05.mp3"></audio></span>
+						<span><audio src="img/sound06.mp3"></audio></span>
+					</div>
+					<div class="foot-content"></div>
+					<div class="reserve">蜀ICP备16002451号</div>
+				</div>
+			</div>
+		</footer>
+		<!--返回顶部-->
+		<div class="back">
+			<div class="back1"></div>
+			<div class="back2"></div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$(".title_list").animate({'width':1100}),
+				$(".title_list .pen").click(function(){
+					$(".title_list").animate({'width':100,'backgroundPositionX':-1000},0,function(){
+						$(".title_list").animate({'width':1100,'backgroundPositionX':0},1300,'easeOutStrong')
+					})
+				})
+			})
+		</script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$('.back').hide()
+			$(document).scroll(function() {
+				var scro = $(window).scrollTop();
+				if (scro > 800) {
+					$('.back').fadeIn(500)
+				} else {
+					$('.back').fadeOut(500)
+				}
+			})
+			$('.back1').on('click', function() {
+				$("html,body").animate({
+					scrollTop: 0
+				})
+			})
+		</script>
+		<script type="text/javascript">
+			$("#xiala p").hover(function(){
+				$(".dian").css({'z-index':10})
+			},function(){
+				$(".dian").css({'z-index':11})
+			})
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				var global=global||{}
+				global.loadstart=0
+				loadlist()
+				function loadlist(){
+					if (global.loadstart==0) {
+						$("#articleList").html("")
+					}
+					var result=listData['listData0'+global.loadstart]
+					var list=result.data.list
+					if (!list||!list.length) {
+						$("#articleList").html("请求数据不存在")
+					}else{
+						for (var i=0;i<list.length;i++) {
+							var htmlModel=$("#itemHtml").html()
+							htmlModel=htmlModel.replace('articleId',list[i].sysId)
+							htmlModel=htmlModel.replace('img/list_img01.jpg',list[i].coverImg)
+							htmlModel=htmlModel.replace('$articleTitle$',list[i].title)
+							htmlModel=htmlModel.replace('$articleTime$',list[i].creatAt)
+							htmlModel=htmlModel.replace('$describe$',list[i].describe)
+							$('#articleList').append(htmlModel)
+						}
+					}
+					global.loadstart++
+					global.loadCount=Math.ceil(result.data.count/result.data.pageSize)
+					if(global.loadstart>=global.loadCount){
+						$('.jiantou').fadeTo(200,0);
+						$('.More').attr('src','img/list_gomore_bg_nomore.jpg')
+					}	   
+				}
+					$('.jiantou').click(function(){
+						loadlist()
+					})
+					$(".list_content").delegate('.content_one','click',function(){
+						var articleId=$(this).attr('articleId')
+						window.open('article.html?news=xiaoniaoNews'+articleId)
+					})
+			})
+		</script>
+	</body>
+</html>
